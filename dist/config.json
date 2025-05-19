@@ -1,1 +1,4 @@
-{"source": "C:/SampleMrc", "dest": "D:/mrcmoved"}
+{
+    "source_directory": "C:/SampleMrc",
+    "destination_directory": "D:/mrcmoved"
+}

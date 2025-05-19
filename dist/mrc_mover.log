@@ -1,4 +1,13 @@
-2025-05-19 14:25:03,683 - Starting MRC file mover
-2025-05-19 14:25:03,690 - Monitoring directory: C:\SampleMrc
-2025-05-19 14:25:03,694 - Moving files to: D:\mrcmoved
-2025-05-19 14:30:04,699 - Successfully moved Bgal_tilt_stk.mrc to D:\mrcmoved\Bgal_tilt_stk.mrc
+2025-05-19 15:54:43,610 - Error reading config file! Please check the format.
+2025-05-19 15:55:32,336 - Error reading config file! Please check the format.
+2025-05-19 15:56:24,568 - Error reading config file! Please check the format.
+2025-05-19 16:07:18,390 - Loaded configuration:
+2025-05-19 16:07:18,390 - Source directory: C:/SampleMrc
+2025-05-19 16:07:18,390 - Destination directory: D:/mrcmoved
+2025-05-19 16:07:18,390 - Check interval: 1 minute
+2025-05-19 16:07:18,390 - Starting MRC file mover
+2025-05-19 16:07:18,390 - Checking every 1 minute
+2025-05-19 16:07:19,434 - Copied Bgal_untilt_stk.mrc to D:/mrcmoved
+2025-05-19 16:07:19,495 - Verified copy successful and deleted source file: Bgal_untilt_stk.mrc
+2025-05-19 16:07:20,529 - Copied cav6217_stk.mrc to D:/mrcmoved
+2025-05-19 16:07:20,582 - Verified copy successful and deleted source file: cav6217_stk.mrc
