@@ -1,0 +1,4 @@
+2025-05-19 14:25:03,683 - Starting MRC file mover
+2025-05-19 14:25:03,690 - Monitoring directory: C:\SampleMrc
+2025-05-19 14:25:03,694 - Moving files to: D:\mrcmoved
+2025-05-19 14:30:04,699 - Successfully moved Bgal_tilt_stk.mrc to D:\mrcmoved\Bgal_tilt_stk.mrc
