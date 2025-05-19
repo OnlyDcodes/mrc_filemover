@@ -1,0 +1,6 @@
+2025-05-19 14:01:26,578 - Starting MRC file mover
+2025-05-19 14:01:26,579 - Monitoring directory: C:\SampleMrc
+2025-05-19 14:01:26,580 - Moving files to: D:\mrcmoved
+2025-05-19 14:01:27,583 - Successfully moved cav6216_stk.mrc to D:\mrcmoved\cav6216_stk.mrc
+2025-05-19 14:01:28,589 - Successfully moved cav6217_stk.mrc to D:\mrcmoved\cav6217_stk.mrc
+2025-05-19 14:01:29,591 - Successfully moved cav_3d.mrc to D:\mrcmoved\cav_3d.mrc
