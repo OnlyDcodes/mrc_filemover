@@ -21,3 +21,123 @@
 2025-05-21 08:06:07,764 - Verified copy successful and deleted source file: Bgal_untilt_stk.mrc
 2025-05-21 08:06:08,785 - Copied cav6217_stk.mrc to D:/mrcmoved
 2025-05-21 08:06:08,846 - Verified copy successful and deleted source file: cav6217_stk.mrc
+2025-05-21 08:11:29,610 - DEBUG - Looking for config file at: C:\Users\Donyl\Desktop\Projects\mrcfile_move\dist\config.json
+2025-05-21 08:11:29,610 - DEBUG - Attempting to read config file...
+2025-05-21 08:11:29,610 - DEBUG - Full source path: C:\SampleMrc
+2025-05-21 08:11:29,610 - DEBUG - Full destination path: D:\mrcmoved
+2025-05-21 08:11:29,610 - INFO - Successfully loaded configuration:
+2025-05-21 08:11:29,610 - INFO - Source directory: C:/SampleMrc
+2025-05-21 08:11:29,610 - INFO - Destination directory: D:/mrcmoved
+2025-05-21 08:11:29,610 - INFO - Starting MRC file mover
+2025-05-21 08:11:29,610 - DEBUG - Scanning directory: C:/SampleMrc
+2025-05-21 08:11:29,610 - DEBUG - Found 2 .mrc files
+2025-05-21 08:11:29,610 - DEBUG - Processing file: Bgal_untilt_stk.mrc
+2025-05-21 08:11:29,610 - DEBUG - Attempting to process file: C:/SampleMrc\Bgal_untilt_stk.mrc
+2025-05-21 08:11:30,615 - DEBUG - File C:/SampleMrc\Bgal_untilt_stk.mrc size check - Initial: 4761024, Final: 4761024
+2025-05-21 08:11:30,616 - DEBUG - Copying Bgal_untilt_stk.mrc to D:/mrcmoved\Bgal_untilt_stk.mrc
+2025-05-21 08:11:30,631 - INFO - Copied Bgal_untilt_stk.mrc to D:/mrcmoved
+2025-05-21 08:11:30,698 - DEBUG - File hash comparison - Source: 4ea481bd8e7e2d56ff0317aba010aa1d, Destination: 4ea481bd8e7e2d56ff0317aba010aa1d
+2025-05-21 08:11:30,698 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\Bgal_untilt_stk.mrc
+2025-05-21 08:11:30,698 - INFO - Verified copy successful and deleted source file: Bgal_untilt_stk.mrc
+2025-05-21 08:11:30,698 - DEBUG - Processing file: cav6217_stk.mrc
+2025-05-21 08:11:30,698 - DEBUG - Attempting to process file: C:/SampleMrc\cav6217_stk.mrc
+2025-05-21 08:11:31,700 - DEBUG - File C:/SampleMrc\cav6217_stk.mrc size check - Initial: 2950144, Final: 2950144
+2025-05-21 08:11:31,700 - DEBUG - Copying cav6217_stk.mrc to D:/mrcmoved\cav6217_stk.mrc
+2025-05-21 08:11:31,708 - INFO - Copied cav6217_stk.mrc to D:/mrcmoved
+2025-05-21 08:11:31,752 - DEBUG - File hash comparison - Source: 73fd4af5571f60099817289bb849be38, Destination: 73fd4af5571f60099817289bb849be38
+2025-05-21 08:11:31,752 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\cav6217_stk.mrc
+2025-05-21 08:11:31,752 - INFO - Verified copy successful and deleted source file: cav6217_stk.mrc
+2025-05-21 08:11:31,752 - INFO - Successfully processed 2 files
+2025-05-21 08:11:31,752 - INFO - File processing complete. Exiting...
+2025-05-21 13:16:00,551 - DEBUG - Looking for config file at: C:\Users\Donyl\Desktop\Projects\mrcfile_move\dist\config.json
+2025-05-21 13:16:00,551 - DEBUG - Attempting to read config file...
+2025-05-21 13:16:00,551 - DEBUG - Full source path: C:\SampleMrc
+2025-05-21 13:16:00,556 - DEBUG - Full destination path: D:\mrcmoved
+2025-05-21 13:16:00,556 - INFO - Successfully loaded configuration:
+2025-05-21 13:16:00,556 - INFO - Source directory: C:/SampleMrc
+2025-05-21 13:16:00,556 - INFO - Destination directory: D:/mrcmoved
+2025-05-21 13:16:00,556 - INFO - Starting MRC file mover
+2025-05-21 13:16:00,556 - DEBUG - Scanning directory: C:/SampleMrc
+2025-05-21 13:16:00,556 - DEBUG - Found 10 .mrc files
+2025-05-21 13:16:00,556 - DEBUG - Processing file: 982934628778423.mrc
+2025-05-21 13:16:00,556 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423.mrc
+2025-05-21 13:16:01,563 - DEBUG - File C:/SampleMrc\982934628778423.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:01,568 - DEBUG - Copying 982934628778423.mrc to D:/mrcmoved\982934628778423.mrc
+2025-05-21 13:16:01,576 - INFO - Copied 982934628778423.mrc to D:/mrcmoved
+2025-05-21 13:16:01,599 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:01,599 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423.mrc
+2025-05-21 13:16:01,599 - INFO - Verified copy successful and deleted source file: 982934628778423.mrc
+2025-05-21 13:16:01,599 - DEBUG - Processing file: 982934628778423_.mrc
+2025-05-21 13:16:01,599 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_.mrc
+2025-05-21 13:16:02,631 - DEBUG - File C:/SampleMrc\982934628778423_.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:02,635 - DEBUG - Copying 982934628778423_.mrc to D:/mrcmoved\982934628778423_.mrc
+2025-05-21 13:16:02,635 - INFO - Copied 982934628778423_.mrc to D:/mrcmoved
+2025-05-21 13:16:02,641 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:02,641 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_.mrc
+2025-05-21 13:16:02,641 - INFO - Verified copy successful and deleted source file: 982934628778423_.mrc
+2025-05-21 13:16:02,641 - DEBUG - Processing file: 982934628778423_1.mrc
+2025-05-21 13:16:02,643 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_1.mrc
+2025-05-21 13:16:03,644 - DEBUG - File C:/SampleMrc\982934628778423_1.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:03,644 - DEBUG - Copying 982934628778423_1.mrc to D:/mrcmoved\982934628778423_1.mrc
+2025-05-21 13:16:03,658 - INFO - Copied 982934628778423_1.mrc to D:/mrcmoved
+2025-05-21 13:16:03,662 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:03,662 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_1.mrc
+2025-05-21 13:16:03,662 - INFO - Verified copy successful and deleted source file: 982934628778423_1.mrc
+2025-05-21 13:16:03,662 - DEBUG - Processing file: 982934628778423_12.mrc
+2025-05-21 13:16:03,662 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_12.mrc
+2025-05-21 13:16:04,669 - DEBUG - File C:/SampleMrc\982934628778423_12.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:04,674 - DEBUG - Copying 982934628778423_12.mrc to D:/mrcmoved\982934628778423_12.mrc
+2025-05-21 13:16:04,677 - INFO - Copied 982934628778423_12.mrc to D:/mrcmoved
+2025-05-21 13:16:04,681 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:04,681 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_12.mrc
+2025-05-21 13:16:04,683 - INFO - Verified copy successful and deleted source file: 982934628778423_12.mrc
+2025-05-21 13:16:04,683 - DEBUG - Processing file: 982934628778423_121.mrc
+2025-05-21 13:16:04,683 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_121.mrc
+2025-05-21 13:16:05,685 - DEBUG - File C:/SampleMrc\982934628778423_121.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:05,687 - DEBUG - Copying 982934628778423_121.mrc to D:/mrcmoved\982934628778423_121.mrc
+2025-05-21 13:16:05,691 - INFO - Copied 982934628778423_121.mrc to D:/mrcmoved
+2025-05-21 13:16:05,704 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:05,704 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_121.mrc
+2025-05-21 13:16:05,704 - INFO - Verified copy successful and deleted source file: 982934628778423_121.mrc
+2025-05-21 13:16:05,704 - DEBUG - Processing file: 982934628778423_1223 1.mrc
+2025-05-21 13:16:05,704 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_1223 1.mrc
+2025-05-21 13:16:06,708 - DEBUG - File C:/SampleMrc\982934628778423_1223 1.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:06,708 - DEBUG - Copying 982934628778423_1223 1.mrc to D:/mrcmoved\982934628778423_1223 1.mrc
+2025-05-21 13:16:06,708 - INFO - Copied 982934628778423_1223 1.mrc to D:/mrcmoved
+2025-05-21 13:16:06,717 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:06,717 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_1223 1.mrc
+2025-05-21 13:16:06,720 - INFO - Verified copy successful and deleted source file: 982934628778423_1223 1.mrc
+2025-05-21 13:16:06,720 - DEBUG - Processing file: 982934628778423_1224.mrc
+2025-05-21 13:16:06,720 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_1224.mrc
+2025-05-21 13:16:07,725 - DEBUG - File C:/SampleMrc\982934628778423_1224.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:07,728 - DEBUG - Copying 982934628778423_1224.mrc to D:/mrcmoved\982934628778423_1224.mrc
+2025-05-21 13:16:07,732 - INFO - Copied 982934628778423_1224.mrc to D:/mrcmoved
+2025-05-21 13:16:07,736 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:07,736 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_1224.mrc
+2025-05-21 13:16:07,738 - INFO - Verified copy successful and deleted source file: 982934628778423_1224.mrc
+2025-05-21 13:16:07,738 - DEBUG - Processing file: 982934628778423_123.mrc
+2025-05-21 13:16:07,738 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_123.mrc
+2025-05-21 13:16:08,740 - DEBUG - File C:/SampleMrc\982934628778423_123.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:08,740 - DEBUG - Copying 982934628778423_123.mrc to D:/mrcmoved\982934628778423_123.mrc
+2025-05-21 13:16:08,742 - INFO - Copied 982934628778423_123.mrc to D:/mrcmoved
+2025-05-21 13:16:08,746 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:08,746 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_123.mrc
+2025-05-21 13:16:08,748 - INFO - Verified copy successful and deleted source file: 982934628778423_123.mrc
+2025-05-21 13:16:08,748 - DEBUG - Processing file: 982934628778423_125.mrc
+2025-05-21 13:16:08,748 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_125.mrc
+2025-05-21 13:16:09,751 - DEBUG - File C:/SampleMrc\982934628778423_125.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:09,751 - DEBUG - Copying 982934628778423_125.mrc to D:/mrcmoved\982934628778423_125.mrc
+2025-05-21 13:16:09,755 - INFO - Copied 982934628778423_125.mrc to D:/mrcmoved
+2025-05-21 13:16:09,761 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:09,761 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_125.mrc
+2025-05-21 13:16:09,767 - INFO - Verified copy successful and deleted source file: 982934628778423_125.mrc
+2025-05-21 13:16:09,767 - DEBUG - Processing file: 982934628778423_127.mrc
+2025-05-21 13:16:09,767 - DEBUG - Attempting to process file: C:/SampleMrc\982934628778423_127.mrc
+2025-05-21 13:16:10,769 - DEBUG - File C:/SampleMrc\982934628778423_127.mrc size check - Initial: 69, Final: 69
+2025-05-21 13:16:10,769 - DEBUG - Copying 982934628778423_127.mrc to D:/mrcmoved\982934628778423_127.mrc
+2025-05-21 13:16:10,780 - INFO - Copied 982934628778423_127.mrc to D:/mrcmoved
+2025-05-21 13:16:10,784 - DEBUG - File hash comparison - Source: dc79dec40c2b6e484e110346513575b4, Destination: dc79dec40c2b6e484e110346513575b4
+2025-05-21 13:16:10,788 - DEBUG - Verification successful, deleting source file: C:/SampleMrc\982934628778423_127.mrc
+2025-05-21 13:16:10,789 - INFO - Verified copy successful and deleted source file: 982934628778423_127.mrc
+2025-05-21 13:16:10,789 - INFO - Successfully processed 10 files
+2025-05-21 13:16:10,790 - INFO - File processing complete. Exiting...
