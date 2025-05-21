@@ -37,7 +37,6 @@ class MRCFileMover:
                 config = json.load(f)
                 self.source_dir = config['source_directory']
                 self.dest_dir = config['destination_directory']
-                self.interval_minutes = 1
 
             # Log the actual paths being used
             logging.debug(f"Full source path: {os.path.abspath(self.source_dir)}")
@@ -54,7 +53,6 @@ class MRCFileMover:
             logging.info(f"Successfully loaded configuration:")
             logging.info(f"Source directory: {self.source_dir}")
             logging.info(f"Destination directory: {self.dest_dir}")
-            logging.info(f"Check interval: {self.interval_minutes} minute")
                 
         except FileNotFoundError:
             logging.error(f"Config file {self.config_path} not found!")
@@ -151,6 +149,7 @@ class MRCFileMover:
                         if f.endswith('.mrc') and os.path.isfile(os.path.join(self.source_dir, f))]
             
             logging.debug(f"Found {len(mrc_files)} .mrc files")
+            files_processed = 0
             
             for filename in mrc_files:
                 file_path = os.path.join(self.source_dir, filename)
@@ -158,18 +157,25 @@ class MRCFileMover:
                 if filename not in self.processed_files:
                     if self.safe_copy_and_delete(file_path):
                         self.processed_files.add(filename)
+                        files_processed += 1
+            
+            return files_processed
                         
         except Exception as e:
             logging.error(f"Error scanning directory: {str(e)}")
+            return 0
 
     def run(self):
-        """Run the file mover continuously."""
+        """Run the file mover once and exit after completion."""
         logging.info("Starting MRC file mover")
-        logging.info("Checking every 1 minute")
+        files_processed = self.scan_and_process()
         
-        while True:
-            self.scan_and_process()
-            time.sleep(60)  # 1 minute interval
+        if files_processed > 0:
+            logging.info(f"Successfully processed {files_processed} files")
+        else:
+            logging.info("No new files to process")
+        
+        logging.info("File processing complete. Exiting...")
 
 def main():
     mover = MRCFileMover()
