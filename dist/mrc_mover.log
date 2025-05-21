@@ -11,3 +11,13 @@
 2025-05-19 16:07:19,495 - Verified copy successful and deleted source file: Bgal_untilt_stk.mrc
 2025-05-19 16:07:20,529 - Copied cav6217_stk.mrc to D:/mrcmoved
 2025-05-19 16:07:20,582 - Verified copy successful and deleted source file: cav6217_stk.mrc
+2025-05-21 08:06:06,679 - Loaded configuration:
+2025-05-21 08:06:06,679 - Source directory: C:/SampleMrc
+2025-05-21 08:06:06,679 - Destination directory: D:/mrcmoved
+2025-05-21 08:06:06,679 - Check interval: 1 minute
+2025-05-21 08:06:06,679 - Starting MRC file mover
+2025-05-21 08:06:06,679 - Checking every 1 minute
+2025-05-21 08:06:07,703 - Copied Bgal_untilt_stk.mrc to D:/mrcmoved
+2025-05-21 08:06:07,764 - Verified copy successful and deleted source file: Bgal_untilt_stk.mrc
+2025-05-21 08:06:08,785 - Copied cav6217_stk.mrc to D:/mrcmoved
+2025-05-21 08:06:08,846 - Verified copy successful and deleted source file: cav6217_stk.mrc
