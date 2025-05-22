@@ -1,0 +1,11 @@
+2025-05-22 12:54:54,590 - INFO - Starting MRC file mover
+2025-05-22 12:54:55,601 - INFO - SUCCESS: asdasd - Copy (2).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:54:56,610 - INFO - SUCCESS: asdasd - Copy (3).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:54:57,620 - INFO - SUCCESS: asdasd - Copy (4).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:54:58,628 - INFO - SUCCESS: asdasd - Copy (5).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:54:59,639 - INFO - SUCCESS: asdasd - Copy (6).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:55:00,662 - INFO - SUCCESS: asdasd - Copy (7).mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:55:01,673 - INFO - SUCCESS: asdasd - Copy.mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:55:02,682 - INFO - SUCCESS: asdasd.mrc (0.0MB) - Copied, verified, and deleted in 0.0s - TRUE
+2025-05-22 12:55:02,683 - INFO - Successfully processed 8 files
+2025-05-22 12:55:02,683 - INFO - File processing complete. Exiting...
