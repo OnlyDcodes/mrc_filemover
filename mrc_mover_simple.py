@@ -21,6 +21,12 @@ class MRCFileMover:
         
     def setup_logging(self):
         """Set up logging to file with rotation."""
+        if not self.write_logs:
+            # If logging is disabled, set up a null logger
+            self.logger = logging.getLogger(__name__)
+            self.logger.disabled = True
+            return
+            
         # Create logs directory if it doesn't exist
         log_dir = Path("logs")
         log_dir.mkdir(exist_ok=True)
@@ -47,6 +53,8 @@ class MRCFileMover:
                 config = json.load(f)
                 self.source_dir = config['source_directory']
                 self.dest_dir = config['destination_directory']
+                # Load logging preference, default to True if not specified
+                self.write_logs = str(config.get('write_logs', 'true')).lower() == 'true'
             
             # Verify directories exist
             if not os.path.exists(self.source_dir):
@@ -70,7 +78,8 @@ class MRCFileMover:
         """Create a default config file if none exists."""
         default_config = {
             "source_directory": "C:/source_folder",
-            "destination_directory": "D:/destination_folder"
+            "destination_directory": "D:/destination_folder",
+            "write_logs": "true"
         }
         
         with open(self.config_path, 'w') as f:
@@ -134,8 +143,12 @@ class MRCFileMover:
                 # Delete original file
                 os.remove(source_path)
                 
-                # Log successful transfer - this is the only thing we log as per requirement
-                self.logger.info(f"SUCCESS: {filename} ({file_size_mb}MB) - Copied, verified, and deleted in {copy_time}s - TRUE")
+                # Log successful transfer only if logging is enabled
+                if self.write_logs:
+                    self.logger.info(f"SUCCESS: {filename} ({file_size_mb}MB) - Copied, verified, and deleted in {copy_time}s - TRUE")
+                else:
+                    # Still print to console even if logging is disabled
+                    print(f"SUCCESS: {filename} ({file_size_mb}MB) - Copied, verified, and deleted in {copy_time}s - TRUE")
                 return True
             else:
                 # Clean up failed copy
@@ -168,15 +181,25 @@ class MRCFileMover:
 
     def run(self):
         """Run the file mover once and exit after completion."""
-        self.logger.info("Starting MRC file mover")
+        if self.write_logs:
+            self.logger.info("Starting MRC file mover")
+        else:
+            print("Starting MRC file mover")
+            
         files_processed = self.scan_and_process()
         
         if files_processed > 0:
-            self.logger.info(f"Successfully processed {files_processed} files")
+            if self.write_logs:
+                self.logger.info(f"Successfully processed {files_processed} files")
+            else:
+                print(f"Successfully processed {files_processed} files")
         else:
-            print("No new files to process")  # Don't log this to reduce space
+            print("No new files to process")  # Always print this to console
         
-        self.logger.info("File processing complete. Exiting...")
+        if self.write_logs:
+            self.logger.info("File processing complete. Exiting...")
+        else:
+            print("File processing complete. Exiting...")
 
 def main():
     mover = MRCFileMover()
