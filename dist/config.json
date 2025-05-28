@@ -1,4 +1,5 @@
 {
     "source_directory": "C:/SampleMrc",
-    "destination_directory": "D:/mrcmoved"
+    "destination_directory": "D:/mrcmoved",
+    "write_logs": "false"
 }
